@@ -50,10 +50,9 @@ h1{
   transition: 0.5s;
 }
 
-.neon:hover{
+.neon:hover, .neon:active{
   color: white;
   text-shadow: 0 0 8px white;
-
 }
 
 ul {

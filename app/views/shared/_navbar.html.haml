@@ -1,13 +1,17 @@
 %nav.navbar.navbar-expand-lg.justify-content-end
   .container
-    %a.navbar-brand.neon{:href => "#"} &lt;/laura&gt;
+    = link_to '</laura>', root_path, class:'navbar-brand neon' 
     %button.navbar-toggler{"aria-controls" => "navbarNav", "aria-expanded" => "false", "aria-label" => "Toggle navigation", "data-bs-target" => "#navbarNav", "data-bs-toggle" => "collapse", :type => "button"}
       %span.navbar-toggler-icon
     #navbarNav.collapse.navbar-collapse.justify-content-end
       %ul.navbar-nav
         %li.nav-item
-          %a.nav-link.active{"aria-current" => "page", :href => "#"} Home
+          = link_to 'Home', root_path, class:'nav-link active' 
         %li.nav-item
-          %a.nav-link{:href => "#"} Features
+          = link_to 'Skills', root_path(anchor: 'skills'), class:'nav-link' 
         %li.nav-item
-          %a.nav-link{:href => "#"} Pricing
+          = link_to 'Experience', root_path(anchor: 'timeline'), class:'nav-link' 
+        %li.nav-item
+          %a.nav-link{:href => "#"} Projects
+        %li.nav-item
+          %a.nav-link{:href => "#"} Let's work

@@ -14,5 +14,13 @@ nav{
 
   .nav-link{
     font-size: 1rem;
+    text-transform: uppercase;
+    text-shadow: 0 0 2px rgba(255, 255, 255, 0.803);
+    transition: 0.5s;
+  }
+
+  .nav-link:hover{
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.803);
+    color: white;
   }
 }
