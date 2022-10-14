@@ -3,3 +3,70 @@
 @import "avatar";
 @import "form_legend_clear";
 @import "navbar";
+@import "banner";
+@import "loader";
+@import "buttons";
+@import "images";
+
+body{
+  background-color: $purple;
+}
+
+h1{
+  text-transform: uppercase;
+  font-family: $syne;
+}
+
+.syne{
+  font-family: $syne;
+}
+
+.text-nugget{
+  color: $nugget;
+}
+
+.text-dark-purple{
+  color: $dark-purple;
+}
+
+.text-purple{
+  color: $purple;
+}
+
+.bg-nugget{
+  background-color: $nugget;
+}
+
+.bg-pink{
+  background-color: $pink;
+}
+
+.bg-subtile{
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.neon{
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.803);
+  transition: 0.5s;
+}
+
+.neon:hover{
+  color: white;
+  text-shadow: 0 0 8px white;
+
+}
+
+ul {
+  list-style-type: none;
+  padding-inline-start: 0;
+  font-size: 0.8rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+@media (min-width: 768px) {
+
+  h1{
+    font-size: 4rem;
+  }
+}

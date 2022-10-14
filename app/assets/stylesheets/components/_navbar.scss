@@ -1,12 +1,18 @@
-.navbar-lewagon {
-  justify-content: space-between;
-  background: white;
-}
+nav{
+  background-color: $purple;
+  font-weight: 500;
 
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
-}
+  .navbar-brand{
+    font-family: $syne;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  
+  .navbar-brand, .nav-link, .navbar-nav .show > .nav-link, .navbar-nav .nav-link.active{
+    color:white;
+  }
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+  .nav-link{
+    font-size: 1rem;
+  }
 }

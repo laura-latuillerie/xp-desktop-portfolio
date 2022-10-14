@@ -1,0 +1,26 @@
+.btn{
+  border-radius: 30px;
+  padding: 8px 25px;
+  font-weight: 600;
+}
+
+.btn-nugget{
+  background-color: $nugget;
+  transition: 0.5s;
+}
+
+.btn-nugget:hover{
+  background-color: white;
+}
+
+.btn-outline-nugget{
+  background-color: transparent;
+  border-color: $nugget;
+  color : $nugget;
+  transition: 0.5s;
+}
+
+.btn.btn-outline-nugget:hover{
+  border-color: white;
+  color: white;
+}
