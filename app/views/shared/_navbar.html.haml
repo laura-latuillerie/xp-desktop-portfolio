@@ -8,9 +8,9 @@
         %li.nav-item
           = link_to 'Home', root_path, class:'nav-link active', data: {turbo: false}
         %li.nav-item
-          = link_to 'Skills', root_path(anchor: 'skills'), class:'nav-link' 
+          = link_to 'Skills', root_path(anchor: 'skills'), class:'nav-link', data: {turbo: false} 
         %li.nav-item
-          = link_to 'Experience', root_path(anchor: 'timeline'), class:'nav-link' 
+          = link_to 'Experience', root_path(anchor: 'timeline'), class:'nav-link', data: {turbo: false} 
         %li.nav-item
           %a.nav-link{:href => "#"} Projects
         %li.nav-item
