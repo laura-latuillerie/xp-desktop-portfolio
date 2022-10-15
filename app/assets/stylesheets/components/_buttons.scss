@@ -1,26 +1,40 @@
 .btn{
-  border-radius: 30px;
-  padding: 8px 25px;
+  border-radius: 6px;
+  padding: 6px 20px;
   font-weight: 600;
+  font-size: 0.9rem;
+  margin: 15px 5px 0 0;
 }
 
-.btn-nugget{
-  background-color: $nugget;
-  transition: 0.5s;
-}
-
-.btn-nugget:hover{
-  background-color: white;
-}
-
-.btn-outline-nugget{
-  background-color: transparent;
-  border-color: $nugget;
-  color : $nugget;
-  transition: 0.5s;
-}
-
-.btn.btn-outline-nugget:hover{
-  border-color: white;
+.btn-translucide, .btn-translucide:hover, .btn-translucide-outline, .btn-translucide-outline:hover{
   color: white;
+}
+
+.btn-translucide-outline, .btn-translucide-outline:hover{
+  border: 1px solid white;
+}
+
+.btn-translucide, .btn-translucide-outline{
+  transition: 0.5s;
+}
+
+.btn-translucide{
+  background: rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  
+}
+
+.btn-translucide:hover{
+  background: rgba(0, 0, 0, 0.1);  
+}
+
+.btn-translucide-outline{
+  background: transparent;
+
+  &:hover{
+    background: rgba(255, 255, 255, 0.1);
+
+  }
 }

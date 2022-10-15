@@ -1,4 +1,5 @@
 // Import your components CSS files here.
+@import "colors";
 @import "alert";
 @import "avatar";
 @import "form_legend_clear";
@@ -9,7 +10,22 @@
 @import "images";
 
 body{
-  background-color: $purple;
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%), url("https://res.cloudinary.com/laura-latuillerie/image/upload/v1665869759/bg-test_uta08r.jpg");
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.social-icons{
+  a {
+    color: white;
+    text-decoration: none;
+    &:hover{
+      color: white;
+    }
+  }
 }
 
 h1{
@@ -21,28 +37,8 @@ h1{
   font-family: $syne;
 }
 
-.text-nugget{
-  color: $nugget;
-}
-
-.text-dark-purple{
-  color: $dark-purple;
-}
-
-.text-purple{
-  color: $purple;
-}
-
-.bg-nugget{
-  background-color: $nugget;
-}
-
-.bg-pink{
-  background-color: $pink;
-}
-
-.bg-subtile{
-  background-color: rgba(0, 0, 0, 0.1);
+.neon, .neon:hover, .neon:active{
+  color:white;
 }
 
 .neon{
@@ -51,8 +47,12 @@ h1{
 }
 
 .neon:hover, .neon:active{
-  color: white;
   text-shadow: 0 0 8px white;
+}
+
+.text-justify{
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 ul {

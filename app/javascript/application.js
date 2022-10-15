@@ -16,6 +16,6 @@ new TypeIt(".typing-effect", {
   .delete(18, { delay: 800 })
   .type("私はローラです", { delay: 100 })
   .delete(7, { delay: 800 })
-  .type("ᕦ(ò_óˇ)ᕤ", { delay: 100 })
+  .type("I'm Laura", { delay: 100 })
   .delete(8, { delay: 800 })
   .go();

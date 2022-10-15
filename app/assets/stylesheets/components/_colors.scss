@@ -1,0 +1,61 @@
+.text-bordeaux{
+  color: $bordeaux;
+}
+
+.text-purple{
+  color: $purple;
+}
+
+.text-mint{
+  color: $mint;
+}
+
+.text-ming{
+  color: $ming;
+}
+
+.text-pink{
+  color: $pink;
+}
+
+.text-blush{
+  color: $blush;
+}
+
+
+.bg-bordeaux{
+  background-color: $bordeaux;
+}
+
+.bg-purple{
+  background-color: $purple;
+}
+
+.bg-mint{
+  background-color: $mint;
+}
+
+.bg-ming{
+  background-color: $ming;
+}
+
+.bg-pink{
+  background-color: $pink;
+}
+
+.bg-blush{
+  background-color: $blush;
+}
+
+.bg-almost-white{
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.3) 15%,  rgba(255,255,255,0.6) 30%, rgba(255,255,255,0.8) 50%, rgba(255,255,255,0.6) 70%, rgba(255,255,255,0.3) 85%, rgba(255,255,255,0) 100%);
+}
+
+.bg-subtle{
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+}

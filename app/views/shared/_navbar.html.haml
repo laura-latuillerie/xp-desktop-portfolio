@@ -6,7 +6,7 @@
     #navbarNav.collapse.navbar-collapse.justify-content-end
       %ul.navbar-nav
         %li.nav-item
-          = link_to 'Home', root_path, class:'nav-link active' 
+          = link_to 'Home', root_path, class:'nav-link active', data: {turbo: false}
         %li.nav-item
           = link_to 'Skills', root_path(anchor: 'skills'), class:'nav-link' 
         %li.nav-item
@@ -14,4 +14,4 @@
         %li.nav-item
           %a.nav-link{:href => "#"} Projects
         %li.nav-item
-          %a.nav-link{:href => "#"} Let's work
+          = link_to 'About Laura', about_path, class:'nav-link', data: {turbo: false}

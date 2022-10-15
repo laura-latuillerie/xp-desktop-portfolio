@@ -1,46 +1,56 @@
-%section#skills.bg-white.py-5.px-4
-  .container
-    %h2.mt-5.text-purple.fw-bolder.syne.text-uppercase All of the skills 🎶
-    %h4.mb-5.fw-light
-      %strong
-        No need to choose
-      between Squirtle, Bulbasaur or Charmander, I'm basically
-      %strong 
-        all of them !
-    .row.justify-content-between.py-5.g-5
-      .col-6.col-md-3.d-flex.flex-column
-        = image_tag('folder', class: 'skills-img')
-        %h3.fs-6.mt-4.fw-semibold.text-dark-purple Program, manage, deploy & host a web application/website
-        %ul
-          %li Ruby (Ruby on Rails)
-          %li HTML (Haml)
-          %li CSS (SCSS, Bootstrap)
-          %li JS (Node, Webpack, Stimulus)
-          %li Python (Django)
-          %li SQL (PostGre)
-      .col-6.col-md-3.d-flex.flex-column
-        = image_tag('layers', class: 'skills-img')
-        %h3.fs-6.mt-4.fw-semibold.text-dark-purple Create brand identity, digital interfaces with UX guidelines
-        %ul
-          %li Adobe Suite
-          %li Figma
-          %li Sketch
-          %li Canva
-      .col-6.col-md-3.d-flex.flex-column
-        = image_tag('calendar', class: 'skills-img')
-        %h3.fs-6.mt-4.fw-semibold.text-dark-purple Manage project direction & team workflow
-        %ul
-          %li Git/Github
-          %li Trello
-          %li Slack
-          %li Notion
-      .col-6.col-md-3.d-flex.flex-column
-        = image_tag('magic-trick', class: 'skills-img')
-        %h3.fs-6.mt-4.fw-semibold.text-dark-purple 3D, video or sound editing, podcast...You name it !
-        %ul
-          %li After Effects
-          %li Fruity Loops, Cubase
-          %li Headliner (Podcast)
-          %li Sound record & Mix
-          %li Motion Desgin
-          %li Spline (3D)
+%section#skills.py-3.px-2.text-white
+  .container.py-5
+    .row.justify-content-between.pb-1.g-5.align-items-center
+      .col-12.col-md-6
+        %h2.fw-bold.syne.text-uppercase.mb-0 My skills & tech
+        %h4.mb-3.fw-normal.syne
+          %span.fw-bold
+            No need to choose
+          between Squirtle, Bulbasaur or Charmander, I'm basically
+          %strong 
+            all of them !
+        = link_to "My Soft Skills", 'https://app.assessfirst.com/_/profile/g6cdjjp1-laura-latuillerie', class:"btn btn-translucide", target: "_blank"
+        = link_to "More About Laura", 'https://app.assessfirst.com/_/profile/g6cdjjp1-laura-latuillerie', class:"btn btn-translucide-outline", target: "_blank"
+        
+      .col-12.col-md-6
+        .row.g-5
+          .col-6.col-md-6.d-flex.flex-column
+            = image_tag('folder-purple', class: 'skills-img')
+            %h3.fs-6.mt-4.fw-bold Program, manage, deploy & host a web app/website
+            %ul
+              %li Ruby (Ruby on Rails)
+              %li HTML (Haml)
+              %li CSS (SCSS, Bootstrap)
+              %li JS (Node, Webpack, Stimulus)
+              %li Python (Django)
+              %li SQL (PostGre)
+              %li Heroku
+              %li SEO
+          .col-6.col-md-6.d-flex.flex-column
+            = image_tag('layers-purple', class: 'skills-img')
+            %h3.fs-6.mt-4.fw-bold Create brand identity, digital interfaces with UX guidelines
+            %ul
+              %li Adobe Illustrator
+              %li Adobe Photoshop
+              %li Adobe InDesign
+              %li Figma
+              %li Sketch
+              %li Canva
+          .col-6.col-md-6.d-flex.flex-column
+            = image_tag('magic-trick-purple', class: 'skills-img')
+            %h3.fs-6.mt-4.fw-bold 3D, video or sound editing, podcast...You name it !
+            %ul
+              %li Adobe After Effects
+              %li Fruity Loops, Cubase
+              %li Headliner (Podcast)
+              %li Sound record & Mix
+              %li Motion Desgin
+              %li Spline (3D)
+          .col-6.col-md-6.d-flex.flex-column
+            = image_tag('calendar-purple', class: 'skills-img')
+            %h3.fs-6.mt-4.fw-bold Product management, direction & team workflow
+            %ul
+              %li Git/Github
+              %li Trello
+              %li Slack
+              %li Notion
