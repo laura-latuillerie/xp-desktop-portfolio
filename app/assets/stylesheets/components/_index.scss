@@ -8,10 +8,12 @@
 @import "loader";
 @import "buttons";
 @import "images";
+@import "bounce";
+@import "gelatine";
 
 body{
   min-height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%), url("https://res.cloudinary.com/laura-latuillerie/image/upload/v1665869759/bg-test_uta08r.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%), url("https://res.cloudinary.com/laura-latuillerie/image/upload/v1666014436/holo-8_ij9g9u.jpg");
   background-size: cover;
   background-position: bottom;
   background-attachment: fixed;
