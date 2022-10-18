@@ -12,7 +12,8 @@
 
   <body>
     <header>
-       <%= render 'shared/navbar' %>
+      <span id="top"></span>
+      <%= render 'shared/navbar' %>
     </header>
     <div id="loading" class="font--pixel fs-4"></div>
     <%= yield %>
@@ -20,7 +21,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js"></script>
   </body>
-  <div id='back-top'>
-    <p class ='fs-3 text-white' >↑</p>
   </div>
 </html>
