@@ -1,19 +1,13 @@
-.container.vh-100
-  .row.py-5.align-items-center.text-white.h-50
-    .col-12.col-md-6.text-center
-      = image_tag('pp.png', width: '450', class:"bounce") 
+.container#about
+  .row.py-5.mt-3.align-items-center.text-white
     .col-12.col-md-6
-      %h1.fs-1.pb-4
+      %h2.fs-2.pb-4.syne.text-uppercase.fw-bold
         %span.neon
-          Working with me
-        👀
-      %h2.fs-3
-        %span.neon
-          Laura, Human, Paris.
-        
+          About Laura
+        👀  
       .row
         .col-md-4
-          %h3.fs-5.syne.neon I like
+          %h2.fs-3.syne.neon I like
           %ul
             %li Learning
             %li Manga
@@ -23,7 +17,7 @@
             %li Travel
             %li Cat videos (Who doesn't?)
         .col-md-4
-          %h3.fs-5.syne.neon I talk
+          %h2.fs-3.syne.neon I talk
           %ul
             %li French (Native)
             %li English (C1)
@@ -32,7 +26,7 @@
             %li Spanish (High School)
             %li Korean (Starting)
         .col-md-4
-          %h3.fs-5.syne.neon I am
+          %h2.fs-3.syne.neon I am
           %ul
             %li Quick Witted
             %li Inquisitive 
@@ -40,12 +34,10 @@
             %li Supportive
             %li Inventive
             %li A funky nerd at heart
-      %h2.fs-3.pt-4.pb-2
+      %h2.fs-3.pt-4.pb-2.syne
         %span.neon
           How to reach me ?
-        
       .row
-        %h3.fs-5.syne.neon Informations needed
         %ul
           %li * If company, a description of the position
           %li * Duration of mission, deadlines
@@ -66,5 +58,7 @@
           %li.list-inline-item
             = link_to("https://youtu.be/gdZLi9oWNZg", target: "_blank") do
               %i.fa-solid.fa-music
+    .col-12.col-md-6.text-center
+      = image_tag('pp.png', width: '450', class:"bounce") 
           
         

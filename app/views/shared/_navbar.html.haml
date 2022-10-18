@@ -12,6 +12,6 @@
         %li.nav-item
           = link_to 'Experience', root_path(anchor: 'timeline'), class:'nav-link', data: {turbo: false} 
         %li.nav-item
-          %a.nav-link{:href => "#"} Projects
+          = link_to 'Projects', root_path(anchor: 'projects'), class:'nav-link', data: {turbo: false} 
         %li.nav-item
-          = link_to 'About Laura', about_path, class:'nav-link', data: {turbo: false}
+          = link_to 'About Laura', root_path(anchor: 'about'), class:'nav-link',data: {turbo: false}

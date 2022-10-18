@@ -1,5 +1,13 @@
-.container-fluid.py-5
+.container-fluid.py-4.bg-almost-black#projects
   .container.justify-content-center.text-white
-    %h2.fw-bold.syne.text-uppercase.mb-0 Relevant Works
-    %h4.mb-3.fw-normal.syne.neon Bought to you through Sugary Blood & Coffee Tears
-    %img{:src => "https://res.cloudinary.com/laura-latuillerie/image/upload/v1666026328/portfolio_u6a4nq.png", :width => "70%"}
+    .row.align-items-center
+      .col-12.col-md-6
+        %img.d-block.w-100.py-5{:alt => "...", :src => "https://res.cloudinary.com/laura-latuillerie/image/upload/v1666096950/amigo-iphones-mockup_kfd6yl.png"}
+      .col-12.col-md-6
+        %h2.fw-bold.syne.text-uppercase.mb-0.neon My Works
+        %h4.fw-lighter.syne.neon
+          Brought to you through
+          %span.fw-bold
+            Blood & Coffee Tears
+        = link_to "Repositories", 'https://github.com/laura-latuillerie/', class:"btn btn-translucide", target: "_blank"
+        = link_to "Pdf Portfolio (soon)", 'https://app.assessfirst.com/_/profile/g6cdjjp1-laura-latuillerie', class:"btn btn-translucide-outline", target: "_blank"

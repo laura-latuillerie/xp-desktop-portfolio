@@ -11,14 +11,22 @@
 @import "bounce";
 @import "gelatine";
 @import "pills-tabs";
+@import "swiper";
 
 body{
+  position: relative;
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%), url("https://res.cloudinary.com/laura-latuillerie/image/upload/v1666014436/holo-8_ij9g9u.jpg");
   background-size: cover;
   background-position: bottom;
   background-attachment: fixed;
   background-repeat: no-repeat;
+}
+
+#back-top{
+  position: fixed;
+  bottom : 20px;
+  right: 20px;
 }
 
 .social-icons{
